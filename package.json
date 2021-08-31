@@ -1,0 +1,29 @@
+{
+  "name": "randword",
+  "version": "0.0.3999",
+  "description": "Returns random English words.",
+  "main": "index.js",
+  "dependencies": {
+    "async": ">=0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sfrdmn/node-randword"
+  },
+  "keywords": [
+    "dictionary",
+    "random",
+    "random word",
+    "dict"
+  ],
+  "author": {
+    "name": "Sean Fridman"
+  },
+  "license": "BSD",
+  "readme": "# Get a random English word!\n\n## Usage\n```Javascript\nvar randword = require('randword');\n\nrandword(function(err, word) {\n  console.log(word + '!');\n});\n```\n",
+  "_id": "randword@0.0.3",
+  "dist": {
+    "shasum": "9bb04d7895d956e37a30e40b0a2bd204a6dc06cc"
+  },
+  "_from": "randword"
+}
